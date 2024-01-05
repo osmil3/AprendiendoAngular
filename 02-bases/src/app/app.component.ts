@@ -4,21 +4,12 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   public title: string = 'Mi primera app de Angular';
-  public counter: number = 10;
 
-  increseBy(value: number):void{
-    this.counter+=value;
   }
 
-  resetCounter():void{
-    this.counter=10;
-  }
 
-}
