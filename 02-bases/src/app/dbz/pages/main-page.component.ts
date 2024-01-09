@@ -17,4 +17,11 @@ export class MainPageComponent  {
     name: 'Goku',
     power: 9000
   }];
+
+
+  onNewCharacter( character: Character ):void{
+    console.log('Mainpage');
+    console.log(character)
+  }
+
 }
