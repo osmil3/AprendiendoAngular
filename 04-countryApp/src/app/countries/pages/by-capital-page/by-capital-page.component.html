@@ -13,6 +13,8 @@
 <div class="row">
   <div class="col">
     <hr>
+
+    <shared-loiding-spiner *ngIf="isLoading"></shared-loiding-spiner>
     <countries-table [countries]="contries"></countries-table>
   </div>
 </div>
