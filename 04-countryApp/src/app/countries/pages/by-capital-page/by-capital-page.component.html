@@ -3,9 +3,9 @@
 
 <div class="row">
   <div class="col">
-      <!-- searchbock -->
+      <!-- searchbock  (onValue)="searchByCapital($event)"-->
       <shared-searchbox
-        (onValue)="searchByCapital($event)"
+        (onDebounce)="searchByCapital($event)"
         placeholder="Buscar por capitla"></shared-searchbox>
   </div>
 </div>
